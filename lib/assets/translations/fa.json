@@ -1,0 +1,49 @@
+{
+  "app_name": "برنامه مالی من",
+  "transactions": "تراکنش‌ها",
+  "add_transaction": "افزودن تراکنش",
+  "edit_transaction": "ویرایش تراکنش",
+  "delete_transaction": "حذف تراکنش",
+  "no_transactions": "هنوز هیچ تراکنشی ثبت نشده",
+
+  "title": "عنوان",
+  "amount": "مبلغ",
+  "category": "دسته‌بندی",
+  "date": "تاریخ",
+  "save": "ذخیره",
+  "cancel": "لغو",
+  "confirm": "تایید",
+  "back": "بازگشت",
+
+  "enter_title": "عنوان را وارد کنید",
+  "enter_amount": "مبلغ را وارد کنید",
+  "select_category": "دسته‌بندی را انتخاب کنید",
+  "select_date": "انتخاب تاریخ",
+
+  "income": "درآمد",
+  "expense": "هزینه",
+
+  "food": "خوراک",
+  "transport": "حمل‌ونقل",
+  "entertainment": "سرگرمی",
+  "shopping": "خرید",
+  "other": "سایر",
+
+  "dashboard": "داشبورد",
+  "total_income": "کل درآمد",
+  "total_expense": "کل هزینه",
+  "balance": "مانده حساب",
+
+  "settings": "تنظیمات",
+  "dark_mode": "حالت تاریک",
+  "language": "زبان",
+  "change_language": "تغییر زبان",
+  "logout": "خروج",
+  "about_us": "درباره ما",
+
+  "error_empty_fields": "لطفاً تمام فیلدها را پر کنید",
+  "error_invalid_amount": "مبلغ وارد شده معتبر نیست",
+  "confirm_delete": "آیا مطمئنی که می‌خوای حذفش کنی؟",
+  "yes": "بله",
+  "no": "خیر"
+}

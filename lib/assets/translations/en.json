@@ -1,0 +1,49 @@
+{
+  "app_name": "My Finance App",
+  "transactions": "Transactions",
+  "add_transaction": "Add Transaction",
+  "edit_transaction": "Edit Transaction",
+  "delete_transaction": "Delete Transaction",
+  "no_transactions": "No transactions recorded yet",
+
+  "title": "Title",
+  "amount": "Amount",
+  "category": "Category",
+  "date": "Date",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "back": "Back",
+
+  "enter_title": "Enter title",
+  "enter_amount": "Enter amount",
+  "select_category": "Select category",
+  "select_date": "Pick a date",
+
+  "income": "Income",
+  "expense": "Expense",
+
+  "food": "Food",
+  "transport": "Transport",
+  "entertainment": "Entertainment",
+  "shopping": "Shopping",
+  "other": "Other",
+
+  "dashboard": "Dashboard",
+  "total_income": "Total Income",
+  "total_expense": "Total Expense",
+  "balance": "Balance",
+
+  "settings": "Settings",
+  "dark_mode": "Dark Mode",
+  "language": "Language",
+  "change_language": "Change Language",
+  "logout": "Logout",
+  "about_us": "About Us",
+
+  "error_empty_fields": "Please fill out all fields",
+  "error_invalid_amount": "Invalid amount entered",
+  "confirm_delete": "Are you sure you want to delete this?",
+  "yes": "Yes",
+  "no": "No"
+}
