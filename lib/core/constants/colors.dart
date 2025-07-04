@@ -9,7 +9,7 @@ class AppTheme {
     brightness: Brightness.dark,
     scaffoldBackgroundColor: const Color(0xFF121827),
     colorScheme: const ColorScheme.dark(
-      primary: Color(0xFF4A6FFF),
+      primary: Color.fromARGB(255, 70, 105, 247),
       secondary: Color(0xFF00E2D3),
       tertiary: Color(0xFFFF7966),
       background: Color.fromARGB(255, 34, 45, 73),
