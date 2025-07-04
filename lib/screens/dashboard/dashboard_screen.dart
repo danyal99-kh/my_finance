@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFF121212),
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Theme.of(context).appBarTheme.foregroundColor,
         elevation: 0,
         centerTitle: true,
         title: Text(
@@ -34,16 +34,40 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.grey[900],
-        selectedItemColor: Colors.tealAccent,
-        unselectedItemColor: Colors.white70,
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'خانه'),
-          BottomNavigationBarItem(icon: Icon(Icons.bar_chart), label: 'گزارش'),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'تنظیمات'),
-        ],
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.grey[850],
+        shape: CircularNotchedRectangle(),
+        notchMargin: 4,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            IconButton(
+              icon: Icon(Icons.home, color: Colors.white70),
+              onPressed: () {
+                // رفتن به خانه
+              },
+            ),
+            SizedBox(width: 10), // فضای خالی وسط برای دکمه شناور
+            IconButton(
+              icon: Icon(Icons.settings, color: Colors.white70),
+              onPressed: () {
+                // رفتن به تنظیمات
+              },
+            ),
+          ],
+        ),
       ),
+      floatingActionButton: FloatingActionButton(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(25), // هرچی عدد کمتر، گوشه تیزتر
+        ),
+        backgroundColor: Colors.teal[700],
+        child: Icon(Icons.add, color: Colors.white),
+        onPressed: () {
+          // افزودن تراکنش جدید
+        },
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 
