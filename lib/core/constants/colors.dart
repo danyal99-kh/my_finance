@@ -1,5 +1,4 @@
-import 'dart:ui';
-
+// ignore: depend_on_referenced_packages
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -12,7 +11,6 @@ class AppTheme {
       primary: Color.fromARGB(255, 70, 105, 247),
       secondary: Color(0xFF00E2D3),
       tertiary: Color(0xFFFF7966),
-      background: Color.fromARGB(255, 34, 45, 73),
       surface: Color(0xFF1E293B),
       error: Color(0xFFE53935),
     ),

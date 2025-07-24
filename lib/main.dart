@@ -1,12 +1,14 @@
+// ignore: depend_on_referenced_packages
 import 'package:flutter/material.dart';
 import 'package:my_finance/screens/dashboard/dashboard_screen.dart'; // این خط فایل HomePage رو ایمپورت می‌کنه
-import 'package:my_finance/core/constants/colors.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

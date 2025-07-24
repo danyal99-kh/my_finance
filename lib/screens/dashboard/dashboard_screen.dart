@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_finance/core/constants/colors.dart';
 
 class HomePage extends StatelessWidget {
   @override
